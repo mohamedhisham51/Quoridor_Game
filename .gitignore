@@ -1,2 +1,15 @@
+# Object files and compiler garbage
+*.o
+*.out
+*.dsym
+main
+
+# Ignore the build folder completely
+build/
+
+# IDE and Editor Files
 .vscode/
-*.exe
+*.code-workspace
+
+# Local Game Saves
+*.qdr
